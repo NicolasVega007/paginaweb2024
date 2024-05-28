@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/modificaciones.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/.img/OIP.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>INICIO</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ACERCA DE </p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>FOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACTO</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">inicio</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">Contacto</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/inicio -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="inicio">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Soy </span> Nicolas Vega </h1>
+    <p>Guitarrista y futuro profesor de Ingles .</p>
+    <img src="/.img/Imagen de WhatsApp 2024-04-25 a las 19.42.57_e95b9c1f.jpg" alt="boy" class="w3-image" width="200" height="200">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Mas cosas sobre mi </h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> Me llamo Nicolas Vega, tengo 21 años, soy de Argentina de la Provincia de Formosa, tambien soy  miembro de la iglesia de jesucristo de los santos de los ultimos dias 
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Hobbie y trabajo </h3>
+    <p class="w3-wide">Fotocopiador </p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Leer las escrituras </p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Guitarrista</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i><a href="https://media.ldscdn.org/pdf/lds-scriptures/book-of-mormon/book-of-mormon-59012-spa.pdf" target="_black">Descargar libro de Mormón </a>
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">citas favoritas de las escrituras </h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32"></li>
+          <li class="w3-padding-16"> <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=spa#:~:text=24%20Y%20adem%C3%A1s%2C%20digo%20a%20los%20pobres%2C%20vosotros%20que%20no%20ten%C3%A9is%2C%20y%20sin%20embargo%2C%20ten%C3%A9is%20suficiente%20para%20pasar%20de%20un%20d%C3%ADa%20al%20otro%3B%20me%20refiero%20a%20todos%20vosotros%20que%20rehus%C3%A1is%20al%20mendigo%20porque%20no%20ten%C3%A9is%3B%20quisiera%20que%20en%20vuestros%20corazones%20dijeseis%3A%20No%20doy%20porque%20no%20tengo%2C%20mas%20si%20tuviera%2C%20dar%C3%ADa." target="_black">Mosiah 4:24</a> </li>
+          <li class="w3-padding-16"> <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=spa#:~:text=26%20Y%20ahora,seg%C3%BAn%20sus%20necesidades." target="_black">Mosiah 4:26</a> </li>
+          <li class="w3-padding-16"> <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=spa#:~:text=38%20que%20no,confiere%20sobre%20vosotros." target="_black"> Alma 34:38 </a> </li>
+          <li class="w3-padding-16"> <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=spa#:~:text=34%20No%20podr%C3%A9is,final%20del%20malvado." target="_black"> Alma34:34-35 </a> </li>
+          <li class="w3-padding-16"> <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=spa#:~:text=33%20Y%20como,hacer%20obra%20alguna." target="_black"> Alma34:33 </a> </li>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="https://www.churchofjesuschrist.org/?lang=spa" target="_black">Saber Mas Acerca De La Iglesia </a></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32"></li>
+          <li class="w3-padding-16"><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=spa#:~:text=28%20Y%20he,por%20los%20hombres." target="_black"> Alma34:28-29</a> </li>
+          <li class="w3-padding-16"><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=spa#:~:text=4%20Y%20cuando,todas%20las%20cosas." target="_black"> Moroni10:4-5 </a></li>
+          <li class="w3-padding-16"><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=spa#:~:text=30%20Pero%20esto,y%20no%20perezcas." target="_black"> Mosiah4:30 </a></li>
+          <li class="w3-padding-16"><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/acts/4?lang=spa#:~:text=12%20Y%20en%20ning%C3%BAn%20otro%20hay%20salvaci%C3%B3n%2C%20porque%20no%20hay%20otro%20nombre%20bajo%20el%20cielo%2C%20dado%20a%20los%20hombres%2C%20en%20que%20podamos%20ser%20salvos." target="_black"> Hechos 4:12 </a></li>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="https://www.churchofjesuschrist.org/?lang=spa" target="black">Saber Mas Acerca De La Iglesia</a></button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/.img/imgen 1.jpg" style="width: 50%">
+        <img src="/.img/imagen 2.jpg" style="width:50%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/.img/imagen 3.jpg" style="width:50%">
+        <img src="/.img/Imagen de WhatsApp 2024-04-25 a las 19.42.57_e95b9c1f.jpg" style="width:50%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contacto Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contacto</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Argentina, Formosa-Formosa</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Cel: +54 9 3704320666</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Gmail: nicolasperpetuovega0@gmail.com</p>
+    </div><br>
+    <p>completa el formulario para enviarme un mensaje :</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nombre" required name="Nombre"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Gmail" required name="Gmail"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Titulo" required name="Titulo"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensaje" required name="Mensaje"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> enviar mensaje 
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i> <a href="https://www.instagram.com/nicolasvega5687/"target="_blank">.</a></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">Nicolas Vega</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
